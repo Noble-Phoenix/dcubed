@@ -3,8 +3,8 @@ import Link from "next/link"
 
 function Footer() {
   return (
-    <div>
-      <div className="bg-slate-50 flex justify-center">
+    <div >
+      <div className="flex justify-center bg-base-200 fix">
         <footer className="footer pt-10 pb-16 px-4 max-w-6xl  text-base-content">
           <div>
             <img className="mask w-24  " src="/512Export.png" />

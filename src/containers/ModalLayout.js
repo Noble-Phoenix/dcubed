@@ -2,8 +2,7 @@ import { useEffect } from 'react'
 import { MODAL_BODY_TYPES } from '../utils/globalConstantUtil'
 import { useSelector, useDispatch } from 'react-redux'
 import { closeModal } from '@/store/modalSlice'
-import SignInModalBody from '@/components/common/SignInModalBody'
-import PricingModalBody from '@/components/common/PricingModalBody'
+
 
 
 
@@ -33,8 +32,8 @@ function ModalLayout(){
                 {/* Loading modal body according to different modal type */}
                 {
                     {
-                             [MODAL_BODY_TYPES.SIGN_IN_MODAL] : <SignInModalBody closeModal={close} extraObject={extraObject}/>,
-                             [MODAL_BODY_TYPES.PRICING_MODAL] : <PricingModalBody closeModal={close} extraObject={extraObject}/>,
+                            //  [MODAL_BODY_TYPES.SIGN_IN_MODAL] : <SignInModalBody closeModal={close} extraObject={extraObject}/>,
+                            //  [MODAL_BODY_TYPES.PRICING_MODAL] : <PricingModalBody closeModal={close} extraObject={extraObject}/>,
                              [MODAL_BODY_TYPES.DEFAULT] : <div></div>
                     }[bodyType]
                 }

@@ -2,13 +2,10 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Hero from '@/components/home/Hero'
-import Features from '@/components/home/Features'
-import FeatureSection from '@/components/home/FeatureSection'
 import PageMetaTags from '@/containers/PageMetaTags'
-import Pricing from '@/components/home/Pricing'
 import CTA from '@/components/common/CallToAction'
 import { Fragment } from 'react'
-import ServiceOfferings from '@/components/home/Service'
+import ServiceOfferings from '@/components/home/ServiceOfferingCards'
 
 const inter = Inter({ subsets: ['latin'] })
 

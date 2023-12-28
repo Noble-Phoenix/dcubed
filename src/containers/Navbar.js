@@ -27,8 +27,8 @@ function Navbar() {
     }, [])
 
     return (
-        <div className="w-full flex justify-center  shadow-lg  ">
-            <div className="navbar py-2 bg-base-100 max-w-6xl">
+        <div className="w-full flex justify-center  shadow-lg bg-base-200 ">
+            <div className="navbar py-2 bg-base-200 max-w-6xl">
                 <div className="navbar-start ">
                     <div className="flex-none lg:hidden">
                         <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">

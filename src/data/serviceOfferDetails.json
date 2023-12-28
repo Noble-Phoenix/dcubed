@@ -1,0 +1,45 @@
+{
+    "pageContent":[
+
+    {
+        "title": "Tax Preperation",
+        "description": "We are passionate about helping you reduce your tax burden. That's why we keep ourselves updated on the latest tax laws, codes, and regulations by attending frequent tax seminars. We can offer you the best tax planning and preparation strategies for your situation.",
+        "description2":"",
+        "isLeft": false,
+        "showHeading": false,
+        "showCTAButton": false,
+        "imageUrl": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=1726&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "altText":"Black android showing a calculator with stack of documents on a table."
+    },    
+    {
+        "title": "New Business Filing",
+        "description": "We know starting a new business requires a far too much paperwork. We want to be there for you wherever you need help along the way. Creating your own business is truly an amazing feeling but can also feel overwhelming. We want to help you bear the load when you need it. We’ve helped with many business creations and want to share our knowledge with you to make it go as smooth as possible. Our goal is to help you avoid common problems that many new business owners make when they’re first starting out, but most importantly succeed.",
+        "description2":"",
+        "isLeft": true,
+        "showHeading": false,
+        "showCTAButton": false,
+        "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "altText":"Laptop sitting on table with dashboard showing on website."
+    },
+    {
+        "title": "Payroll Processing",
+        "description":"Payroll is a very important part of business. Whether you have one employee or thousands, confidently and accurately managing your payroll can be a challenge. When it comes to registering for an Electronic Federal Tax Payment System (EFTPS), 35% of companies incur a penalty because of incorrect payroll tax payments. We’re here to make sure that you feel confident with what happens and to make sure you don’t worry about anything.",
+        "description2":"",
+        "isLeft": false,
+        "showHeading": false,
+        "showCTAButton": false,
+        "imageUrl": "https://images.unsplash.com/photo-1676151863834-b9b162faa8ab?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "altText":"A ball pen on a personal paper check."
+    },
+    {
+        "title": "Bookkeeping",
+        "description":"You're a busy entrepreneur who needs to focus on growing your business. You don't have time to worry about the tedious details of bookkeeping. That's why we're here to help! ",
+        "description2":"We offer a comprehensive bookkeeping service that will take care of all your financial records. ",
+        "isLeft": true,
+        "showHeading": false,
+        "showCTAButton": false,
+        "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "altText":"Person holding pencil near a laptop"
+    }
+    ]
+}
