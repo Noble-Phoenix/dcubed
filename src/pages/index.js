@@ -8,6 +8,7 @@ import PageMetaTags from '@/containers/PageMetaTags'
 import Pricing from '@/components/home/Pricing'
 import CTA from '@/components/common/CallToAction'
 import { Fragment } from 'react'
+import ServiceOfferings from '@/components/home/Service'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,14 +29,15 @@ export default function Home() {
              linkTitle={"Discover more"}>
 
         </CTA>
+        <ServiceOfferings/>
 
-        <FeatureSection showHeading={true} title="Feature title 1"/>
+        {/* <FeatureSection showHeading={true} title="Feature title 1"/>
 
         <FeatureSection title="Featuer title 2" leftText="1" />
 
         <FeatureSection title="Feature title 3"/>
 
-        <Pricing />
+        <Pricing /> */}
     </>
   )
 }

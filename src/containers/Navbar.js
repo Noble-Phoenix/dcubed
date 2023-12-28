@@ -47,7 +47,7 @@ function Navbar() {
                 </div>
 
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal custom-menu">
+                    <ul className="px-1 menu menu-horizontal custom-menu">
                         <Navlinks />
                     </ul>
 
