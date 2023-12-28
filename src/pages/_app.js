@@ -9,6 +9,7 @@ import { GoogleAnalytics } from "nextjs-google-analytics"
 import mixpanel from 'mixpanel-browser';
 import { Crisp } from "crisp-sdk-web";
 import TagManager from 'react-gtm-module'
+import CookieConsent from '@/components/common/CookieConsent'
 
 export default function App({ Component, pageProps }) {
   
@@ -28,6 +29,7 @@ export default function App({ Component, pageProps }) {
       <Provider store={store}>
           <Layout>
               <GoogleAnalytics trackPageViews />
+              <CookieConsent></CookieConsent>
                 <Component {...pageProps} />
           </Layout>
       </Provider>
