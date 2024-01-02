@@ -9,7 +9,7 @@ function Hero(){
                 <div>
                 <h1 className="text-5xl text-slate-100 font-bold md:leading-none leading-tight md:mt-0 mt-10"> Finance made easy for the next generation of entrepreneurs  </h1>
                 <p className="py-2 text-xl text-slate-100 mt-4 pr-12"> <span className="font-bold text-2xl text-accent"> dcubed </span> has the skills, knowledge, and affordability to meet your needs. Whether you are a business owner, an executive, or an independent professional, we have a range of services that can help you achieve your goals. </p>
-                <Link href="/start-designing"><button className="btn text-lg mt-16 px-12 btn-primary normal-case">Schedule a Consultation</button></Link>
+                <Link href="/contact-us"><button className="btn text-lg mt-16 px-12 btn-primary normal-case">Schedule a Consultation</button></Link>
                 </div>
             </div>
         </div>

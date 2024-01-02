@@ -27,14 +27,15 @@ export default function Home() {
 
         </CTA>
         <ServiceOfferings/>
-
-        {/* <FeatureSection showHeading={true} title="Feature title 1"/>
-
-        <FeatureSection title="Featuer title 2" leftText="1" />
-
-        <FeatureSection title="Feature title 3"/>
-
-        <Pricing /> */}
+        <CTA
+        showHeading={true} 
+        heading="Contact Us" 
+        body={<Fragment>We're here to help you achieve your goals. Don't hesitate to reach out! </Fragment>}  
+        showImage={false}
+        link="/contact-us"
+        linkTitle={"Contact Us"}>
+          
+        </CTA>
     </>
   )
 }

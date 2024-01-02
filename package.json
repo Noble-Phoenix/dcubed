@@ -27,6 +27,7 @@
     "url": "https://github.com/srobbin01/daisyui-nextjs-landing-page/issues"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@heroicons/react": "^2.0.15",
     "@next/font": "13.1.6",
     "@reduxjs/toolkit": "^1.9.7",
@@ -45,6 +46,7 @@
     "react-gtm-module": "^2.0.11",
     "react-hotjar": "^6.1.0",
     "react-redux": "^8.1.3",
+    "sendgrid": "^5.2.3",
     "theme-change": "^2.3.0"
   },
   "devDependencies": {
