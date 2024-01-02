@@ -1,6 +1,4 @@
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
 import Hero from '@/components/home/Hero'
 import PageMetaTags from '@/containers/PageMetaTags'
 import CTA from '@/components/common/CallToAction'

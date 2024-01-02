@@ -3,32 +3,11 @@ import Navbar from "./Navbar";
 import Link from 'next/link'
 import Navlinks from "./Navlinks";
 import Head from 'next/head'
-import ModalLayout from "./ModalLayout";
 import { useDispatch, useSelector } from "react-redux";
-import { setLoggedIn, setToken } from "@/store/userSlice";
 import { useEffect } from "react";
-import LeftSidebar from "./LeftSidebar";
 
 
 export default function Layout({ children }) {
-
-  const logoutUser = () => {
-
-  }
-
-  const {isLoggedIn, credits, scrollId} = useSelector(state => state.user)
-  const dispatch = useDispatch()
-
-  useEffect(() => {
-    //initAPIS and Auth
-    const TOKEN = localStorage.getItem("token")
-    if(TOKEN){
-        dispatch(setLoggedIn(true))
-        dispatch(setToken(TOKEN))
-        // getCurrentCredits()
-    }
-}, [])
-
   return (
     <>
       <Head>
@@ -80,9 +59,6 @@ export default function Layout({ children }) {
               </ul>
           </div>
       </div>
-
-      <LeftSidebar />
-      <ModalLayout />
     </>
   )
 }

@@ -2,8 +2,6 @@ import Layout from '@/containers/Layout'
 import '@/styles/globals.css'
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
-import { Provider } from 'react-redux'
-import store from '../store'
 import { hotjar } from 'react-hotjar'
 import { GoogleAnalytics } from "nextjs-google-analytics"
 import mixpanel from 'mixpanel-browser';
@@ -26,12 +24,10 @@ export default function App({ Component, pageProps }) {
       }, []);
 
   return (
-      <Provider store={store}>
           <Layout>
               <GoogleAnalytics trackPageViews />
               <CookieConsent></CookieConsent>
                 <Component {...pageProps} />
           </Layout>
-      </Provider>
   )
 }
