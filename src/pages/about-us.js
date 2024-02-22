@@ -10,7 +10,7 @@ export default function Page() {
       </p>
       <h3 className="mt-8 font-bold text-xl">Our Story</h3>
       <p className="mt-2">
-        David Trace started dcubed with a vision of providing honest, candid, and reliable financial services and business solutions to entrepreneurs, start-ups, and established businesses. We have over 15 years of combined experience in business consulting, and we have the skills and the network to offer you holistic solutions for your  business challenges.
+        We started dcubed with a vision of providing honest, candid, and reliable financial services and business solutions to entrepreneurs, start-ups, and established businesses. We have over 15 years of combined experience in business consulting, and we have the skills and the network to offer you holistic solutions for your  business challenges.
       </p>
       <h3 className="mt-8 font-bold text-xl">What Sets Us Apart</h3>
       <p className="mt-2">
