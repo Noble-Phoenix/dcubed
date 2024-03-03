@@ -1,4 +1,4 @@
-import parse from "react-html-parser";
+import parse from "html-react-parser";
 
 function Features({heading, data}){
     return(<>
