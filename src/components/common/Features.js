@@ -1,4 +1,4 @@
-import ReactHtmlParser from "react-html-parser";
+import parse from "react-html-parser";
 
 function Features({heading, data}){
     return(<>
@@ -12,7 +12,7 @@ function Features({heading, data}){
                             <div key={k} className="card w-full bg-base-100 shadow-xl hover:shadow-2xl">
                                 <div className="card-body mt-4 items-center text-center">
                                 <p className='text-accent'>{i.icon}</p>
-                                    <h2 className="card-title">{ReactHtmlParser(i.title)}</h2>
+                                    <h2 className="card-title">{parse(i.title)}</h2>
                                     <p>{i.description}</p>
                                 </div>
                                 </div>

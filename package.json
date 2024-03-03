@@ -1,6 +1,6 @@
 {
-  "name": "tailwind_landing_page",
-  "description": "Landing page using next js, tailwind css and daisy UI. Template uses rich tailwind css utility classes and have components of daisy UI.",
+  "name": "DCubed Langing Page",
+  "description": "Landing page using next js, tailwind css and daisy UI. ",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -37,6 +37,7 @@
     "crisp-sdk-web": "^1.0.21",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "html-react-parser": "^5.1.8",
     "mixpanel-browser": "^2.48.1",
     "next": "^14.0.3",
     "next-themes": "^0.2.1",
@@ -45,7 +46,6 @@
     "react-dom": "18.2.0",
     "react-gtm-module": "^2.0.11",
     "react-hotjar": "^6.1.0",
-    "react-html-parser": "^2.0.2",
     "react-redux": "^8.1.3",
     "sendgrid": "^5.2.3",
     "theme-change": "^2.3.0"
