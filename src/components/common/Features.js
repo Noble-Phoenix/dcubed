@@ -20,7 +20,6 @@ function Features({heading, data}){
                         )
                     })
                 }
-                
             </div>
             </div>
         </div>
