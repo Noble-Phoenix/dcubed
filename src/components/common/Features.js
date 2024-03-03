@@ -1,8 +1,7 @@
 import ReactHtmlParser from "react-html-parser";
 
 function Features({heading, data}){
-    return(
-        <>
+    return(<>
              <div className="grid place-items-center w-full bg-base-200">
             <div className="max-w-5xl py-24 content-center justify-center">
                 <h1 className="text-4xl  text-center font-bold">{heading}</h1>
